@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#img{
+    height: 100px;
+    width: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+}
+li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+}
+#button{
+    background-color:rgb(223, 73, 18); 
+    border: none; 
+    color: white; 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 50px; 
+}
+
+.body{
+    background-image: url(./assets/image1.jpg);
+    height: 100%;
+    width: 100%;
+}
+#title{
+padding-top: 220px;
+padding-right: 50px;
+padding-left: 50px;
+ font-family: "Ga Maamli", sans-serif;
+ font-weight: 600;
+ font-style: normal;
+ color: white;
+ line-height: 40px;
+  }
+  #para{
+    padding-left: 50px;
+  }
+ .button{
+    padding-left: 50px;
+    padding-top: 50px;
+    margin: 10px;
+    padding-bottom: 150px;
+ }
