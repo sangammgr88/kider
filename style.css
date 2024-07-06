@@ -58,3 +58,13 @@ padding-left: 50px;
     margin: 10px;
     padding-bottom: 150px;
  }
+ .icon{
+    height: 30px;
+    width: 30px;
+ }
+
+  /* About page */
+ .aboutpage{
+    background-image: url(./assets/image2.jpg);
+
+}
