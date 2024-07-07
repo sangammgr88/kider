@@ -2,6 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
+nav ul li a{
+text-decoration: none;
+color: black;
+}
 #img{
     height: 100px;
     width: 100px;
@@ -66,8 +70,8 @@ padding-left: 50px;
   /* About page */
  .aboutpage{
     background-image: url(./assets/image2.jpg);
-    position: relative;
     background-size: cover;
+    height: 500px;
 }
 #Aboutpage{
     font-family: "Ga Maamli", sans-serif;
@@ -88,10 +92,11 @@ padding-left: 50px;
     
 }
  /* footer */
+ footer{background-color: #103741;
+margin: 10px;}
 .footer{
-    display:flex;
-    background-color: #103741;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr ;
 }
 .quicklinks{
     padding-top: 50px;
@@ -100,7 +105,9 @@ padding-left: 50px;
 .quicklinks a{
     text-decoration: none;
 }
-
+.quicklinks ul{
+    display: grid;
+}
 .gallery-container {
     text-align: center;
     max-width: 300px;
