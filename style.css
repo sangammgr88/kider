@@ -1,6 +1,7 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 nav ul li a{
 text-decoration: none;
@@ -16,6 +17,8 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: white;
+    position: sticky;
+    width: 100%;
 }
 li{
     display: inline-block;
@@ -47,9 +50,9 @@ li{
 padding-top: 220px;
 padding-right: 50px;
 padding-left: 50px;
- font-family: "Ga Maamli", sans-serif;
- font-weight: 600;
- font-style: normal;
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;
  color: white;
  line-height: 40px;
   }
@@ -70,16 +73,16 @@ padding-left: 50px;
   /* About page */
  .aboutpage{
     background-image: url(./assets/image2.jpg);
-    background-size: cover;
-    height: 500px;
+    background-size:cover;
+    height: 400px;
 }
 #Aboutpage{
-    font-family: "Ga Maamli", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
   color: white;
-  padding-left: 30px;
-  padding-top: 50px;
+  padding-left: 150px;
+  padding-top: 150px;
   padding-bottom: 70px;
 }
 #link{
@@ -89,7 +92,56 @@ padding-left: 50px;
     color: orangered;
     text-decoration: none;
     margin-inline: 1px;
-    
+}
+.aboutus{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.CEO{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.teacher{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.mainphoto{
+    background-image: url(./assets/about1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 450px;
+   width: 65%;
+   border-radius: 100%;
+   border: 10px solid pink;
+   position: relative;
+   margin-bottom: 100px;
+   
+}
+.photoof2{
+    display: flex;
+    bottom: -90px;
+    position: absolute;
+    gap: 40px;
+    left: -60px;
+}
+#photo2{
+    border-radius: 50%;
+    height: 250px;
+    border: 10px solid pink;
+    z-index:1;
+    top: 30px;
+}
+#photo3{
+    border-radius: 50%;
+    height: 250px;
+    border: 10px solid pink;
+    z-index: 1;
 }
  /* footer */
  footer{background-color: #103741;
@@ -134,7 +186,7 @@ margin: 10px;}
 }
 h3{
     color: whitesmoke;
-    font-family: "Ga Maamli", sans-serif;
+  font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
