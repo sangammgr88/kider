@@ -143,6 +143,22 @@ font-style: normal;
     border: 10px solid pink;
     z-index: 1;
 }
+#Popular{
+    justify-content: center;
+    align-items: center;
+}
+#teachersphoto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#one{
+    background-image: url(./assets/teacher1.jpg);
+    border: 2px solid pink;
+    background-size: cover;
+    border-radius: 60%;
+    height: 400px;
+    width: 250px;;
+}
  /* footer */
  footer{background-color: #103741;
 margin: 10px;}
