@@ -151,13 +151,30 @@ font-style: normal;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#one{
+/* #one{
     background-image: url(./assets/teacher1.jpg);
     border: 2px solid pink;
     background-size: cover;
     border-radius: 60%;
     height: 400px;
-    width: 250px;;
+    width: 250px;; */
+/* } */
+.teachersphoto{
+    position: relative;
+     background-image: url('./assets/teacher1.jpg');
+      height: 400px; 
+      background-repeat: none;
+       background-size: cover;
+        width: 250px;
+         border-radius: 50%;
+}
+.one{
+    position: absolute;
+     bottom: 0;
+      right: 0;
+       border: 4px solid orangered;
+        border-radius: 50%; 
+        height: 130px;
 }
  /* footer */
  footer{background-color: #103741;
@@ -212,4 +229,36 @@ h3{
 }
 .container{
     padding-top: 50PX;
+}
+/* classes page */
+.schools{
+    text-align: center;
+    padding-top: 50px;
+}
+.classess{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-top: 50px;
+}
+.Agetime{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.colormanagement{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-top: 50px;
+}
+.Appoinment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form input{ 
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid pink;
+}
+.Clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
